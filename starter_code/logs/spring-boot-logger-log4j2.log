@@ -1,0 +1,44 @@
+2022-04-02 11:19:05,774 INFO o.s.b.StartupInfoLogger [main] Starting SareetaApplicationTests on PPH-LAP-00235 with PID 87909 (started by sreeharisreekumar in /home/sreeharisreekumar/Desktop/webdev4/sucess/starter_code)
+2022-04-02 11:19:05,779 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-04-02 11:19:06,217 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-04-02 11:19:06,268 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44ms. Found 4 repository interfaces.
+2022-04-02 11:19:06,720 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9317536d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-02 11:19:06,893 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-04-02 11:19:07,025 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-04-02 11:19:07,107 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-02 11:19:07,153 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2022-04-02 11:19:07,154 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2022-04-02 11:19:07,250 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-02 11:19:07,347 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-02 11:19:07,912 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-02 11:19:08,510 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-02 11:19:08,622 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a14ab66, org.springframework.security.web.context.SecurityContextPersistenceFilter@646bf8a6, org.springframework.security.web.header.HeaderWriterFilter@25b8f9d2, org.springframework.web.filter.CorsFilter@54780c40, org.springframework.security.web.authentication.logout.LogoutFilter@3bf4644c, com.example.demo.security.JWT_Authentication_Filter@6ac83e67, com.example.demo.security.JWTAuthen_Verification_Filters@4d91d2da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8c34631, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3516f436, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12811f95, org.springframework.security.web.session.SessionManagementFilter@1af6974c, org.springframework.security.web.access.ExceptionTranslationFilter@6b3bc1f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@737445ab]
+2022-04-02 11:19:08,952 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-02 11:19:09,212 INFO o.s.b.StartupInfoLogger [main] Started SareetaApplicationTests in 3.684 seconds (JVM running for 4.656)
+2022-04-02 11:19:09,472 INFO c.e.d.c.UserController [main] Creating user with user name testUserName
+2022-04-02 11:19:09,472 ERROR c.e.d.c.UserController [main] CreateUser request failure. Error with user name or password testUserName
+2022-04-02 11:19:09,477 INFO c.e.d.c.UserController [main]  User name found -  userDifferent
+2022-04-02 11:19:09,480 INFO c.e.d.c.UserController [main]  User name found -  testUserName
+2022-04-02 11:19:09,481 INFO c.e.d.c.UserController [main] Creating user with user name testUserName
+2022-04-02 11:19:09,482 ERROR c.e.d.c.UserController [main] CreateUser request failure. Error with user name or password testUserName
+2022-04-02 11:19:09,484 INFO c.e.d.c.UserController [main]  User ID found -  0
+2022-04-02 11:19:09,486 INFO c.e.d.c.UserController [main] Creating user with user name testUserName
+2022-04-02 11:19:09,486 INFO c.e.d.c.UserController [main] User created successfully .User name  is testUserName
+2022-04-02 11:19:09,528 INFO c.e.d.c.CartController [main] Request addToCart success - user name testingUsername & item id 0
+2022-04-02 11:19:09,530 INFO c.e.d.c.CartController [main] Request addToCart success - user name testingUsername & item id 0
+2022-04-02 11:19:09,533 INFO c.e.d.c.ItemController [main] Items name = 
+2022-04-02 11:19:09,535 INFO c.e.d.c.ItemController [main] Success - Getitems. Items are located
+2022-04-02 11:19:09,538 INFO c.e.d.c.ItemController [main] Item ID = 0
+2022-04-02 11:19:09,540 INFO c.e.d.c.ItemController [main] Items name = 
+2022-04-02 11:19:09,580 INFO c.e.d.c.OrderController [main] Request Get-Order success.Order history found for Usernamenullusername
+2022-04-02 11:19:09,581 INFO c.e.d.c.OrderController [main] Request Get-Order failure.Order history cannot be found for Usernamenullusername
+2022-04-02 11:19:09,582 INFO c.e.d.c.OrderController [main] Request submit - order success,Usernameusernametest
+2022-04-02 11:19:09,583 INFO c.e.d.c.OrderController [main] Request submit - order success,Usernameusernametest
+2022-04-02 11:19:09,585 INFO c.e.d.c.OrderController [main] Request submit - order success,Usernamenullusername
+2022-04-02 11:19:09,586 ERROR c.e.d.c.OrderController [main] Request submit - order failure. Error with user name nullusername
+2022-04-02 11:19:09,619 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-02 11:19:09,621 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-02 11:19:09,623 INFO c.z.h.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2022-04-02 11:19:09,625 INFO c.z.h.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
